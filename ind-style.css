@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+@media screen and (max-width: 1050px)
+{
+    .dropbtn{
+        display:contents;
+    }
+    #list{
+        display: none;
+    }
+}
+.pic{
+    display:flex;
+    float:right;
+}
+.pic img{
+    margin-left:0;
+}
+nav{
+    display:flex;
+    align-items: center;
+    float:left;
+    width:100%;
+    height:20px;
+    width: 100%;
+    background-color: #00ADEF;
+    width: 100%;
+}
+
+nav,ul,li{
+    display:inline;
+    padding-left:20px;
+    padding-right:20px;
+    float:right;
+    color:white;
+}
+.dropbtn {
+    color: #00ADEF ;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display:none;
+  }
+
+#farahandsonsimage{
+    width:300px;
+    height: auto;
+}
+nav li i{
+    color:white;
+
+}
