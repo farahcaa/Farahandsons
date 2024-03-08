@@ -46,37 +46,3 @@
     color:gray;
     padding-top:5px;
 }
-#content{
-    display:flex;
-    position:absolute;
-    flex-wrap:wrap;
-    top:250px;
-    float:left;
-    margin-left: 15%;
-    border:solid;
-    border-color: #FDFDFD;
-    background-color:#FDFDFD;
-    color:gray;
-}
-#text h1{
-  color:#111111;
-  text-align: center;
-}
-#text{
-  display:inline-block;
-  width:600px;
-}
-#content img{
-  position:absolute;
-  top:100px;
-}
-footer{
-  color:white;
-  position:absolute;
-  top:725px;
-  padding-left: 15%;
-  padding-right: 15%;
-  background-color: #C4C4C4;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
