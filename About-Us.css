@@ -46,3 +46,38 @@
     color:gray;
     padding-top:5px;
 }
+.pep{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+div.item{
+  vertical-align: top;
+  display:inline-block;
+  text-align: center;
+  width: 100px;
+}
+.person img {
+  padding: 25px;
+}
+.caption {
+  display: block;
+  text-align:center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: #00ADEF;
+  margin:5px;
+  padding:5px;
+  color:white;
+}
+
+footer{
+  color:white;
+  position:absolute;
+  top:675px;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: #C4C4C4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
