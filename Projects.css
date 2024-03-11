@@ -46,3 +46,23 @@
     color:gray;
     padding-top:5px;
 }
+ul.list{
+  margin-left:15%;
+}
+ul.list li,ul.list p{
+  color:gray;
+}
+ul.list li{
+  line-height: 30px;
+}
+.content{
+  display:flex;
+  margin-top:30px;
+}
+.address p{
+  margin-right:15%;
+  margin-left:70px;
+  color:gray;
+  border-right:solid;
+  border-color:rgba(128, 128, 128, 0.363);
+}
