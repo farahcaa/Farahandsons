@@ -61,10 +61,14 @@ ul.list li{
 }
 .address p{
   margin-right:15%;
-  margin-left:70px;
+  margin-left:10%;
   color:gray;
   border-right:solid;
   border-color:rgba(128, 128, 128, 0.363);
+}
+.address{
+  margin-left:10%;
+  margin-right:15%;
 }
 footer{
   color:white;
