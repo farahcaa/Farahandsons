@@ -67,7 +67,8 @@ ul.list li{
   border-color:rgba(128, 128, 128, 0.363);
 }
 .project-slide{
- display:flex;
+  display:flex;
+  flex-wrap:wrap;
   border-top:solid;
   border-color:rgba(128, 128, 128, 0.363);
   padding-top:20px;
@@ -80,11 +81,25 @@ ul.list li{
   height:225px;
   padding: 20px;
 }
-.slide{
-  flex-wrap:wrap;
+#project-link,#project-link1,#project-link2,#project-link3
+,#project-link4,#project-link5,#project-link6{
+  font-size:200px;
+  color:#00ADEF;
+  transform:translate(30px,15px);
 }
 
-
+.icontopage{
+  opacity:0;
+  width:275px;
+  height:235px;
+  position:absolute;
+  background-color: white;
+  transform:translate(20px,-250px);
+}
+.icontopage:hover{
+  transition: opacity .5s ease;
+  opacity:.8;
+}
 footer{
   color:white;
   margin-top:2%;
