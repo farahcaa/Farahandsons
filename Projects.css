@@ -66,3 +66,31 @@ ul.list li{
   border-right:solid;
   border-color:rgba(128, 128, 128, 0.363);
 }
+.project-slide{
+ display:flex;
+  border-top:solid;
+  border-color:rgba(128, 128, 128, 0.363);
+  padding-top:20px;
+  margin-top:2%;
+  margin-left: 13%;
+  margin-right: 15%
+}
+.project-image{
+  width: 275px;
+  height:225px;
+  padding: 20px;
+}
+.slide{
+  flex-wrap:wrap;
+}
+
+
+footer{
+  color:white;
+  margin-top:2%;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: #C4C4C4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
