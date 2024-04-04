@@ -97,7 +97,6 @@ footer{
   .nav-links {
     float: right;
   }
-  .show{display:block;}
   .nav-links a{
     display: block;
     color: white;
@@ -161,12 +160,11 @@ footer{
   border-width: 1px;
 }
 #content{
-
-    position:absolute;
+    margin-top:5%;
     flex-wrap:wrap;
-    top:250px;
     float:left;
-    margin-left: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     border:solid;
     border-color: #FDFDFD;
     background-color:#FDFDFD;
@@ -175,10 +173,10 @@ footer{
 #text h1{
   color:#111111;
   text-align: center;
+
 }
 #text{
   display:inline-block;
-  width:600px;
 }
 #content img{
   position:absolute;
@@ -187,11 +185,14 @@ footer{
 footer{
   color:white;
   position:absolute;
-  top:675px;
+  top:705px;
   padding-left: 15%;
   padding-right: 15%;
   background-color: #C4C4C4;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+}
+@media screen and (max-width:500px){
+
 }
