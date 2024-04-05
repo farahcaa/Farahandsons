@@ -192,7 +192,7 @@ footer{
   padding-bottom: 10px;
 }
 }
-@media screen and (max-width:500px){
+@media screen and (min-width:200px) and (max-width:500px){
   body,html{
     padding:0;
     margin:0;
@@ -225,12 +225,12 @@ footer{
     display:inline-block;
   }
   #page-content{
-    display:block;
+    display:flex;
   }
   .dropdown{
-    position:absolute;
-    display:inline;
-    right:15%;
+    display:flex;
+   margin-left:auto;
+   margin-right:auto;
     margin-top:30px;
   }
   .pic{
