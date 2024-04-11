@@ -473,28 +473,28 @@ ul.list p{
   border-color:rgba(128, 128, 128, 0.363);
   padding-top:20px;
   margin-top:2%;
-  margin-left: 13%;
-  margin-right: 15%
+  margin-left: 3%;
+  margin-right: auto;
 }
 .project-image{
-  width: 275px;
-  height:225px;
+  width: 350px;
+  height:300px;
   padding: 20px;
 }
 #project-link,#project-link1,#project-link2,#project-link3
 ,#project-link4,#project-link5,#project-link6{
-  font-size:200px;
+  font-size:280px;
   color:#00ADEF;
   transform:translate(30px,15px);
 }
 
 .icontopage{
   opacity:0;
-  width:275px;
-  height:235px;
+  width:355px;
+  height:315px;
   position:absolute;
   background-color: white;
-  transform:translate(20px,-250px);
+  transform:translate(20px,-330px);
 }
 .icontopage:hover{
   transition: opacity .5s ease;
