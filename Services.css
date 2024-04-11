@@ -189,3 +189,135 @@ footer{
   padding-bottom: 10px;
 }
 }
+@media screen and (min-width:200px) and (max-width:500px){
+  body,html{
+    width:100vh;
+    height:100vh;
+  }
+  #navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00ADEF;
+  }
+  .nav-links {
+    float: right;
+  }
+  
+  .nav-links a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size:40px;
+  }
+  .nav-links a:hover {
+    background-color: #111111;
+  }
+
+#page-content{
+    display: flex;
+    margin-top:20px;
+    align-items: center;
+    justify-content: center;
+} 
+.pic{
+    height:150px;
+    width: auto;
+    display:flex;
+    float:left;
+}
+.dropdown{
+  display: flex;
+  margin-left: auto;
+  margin-right:auto;
+}
+.dropbtn{
+  font-size: 100px;
+  background-color: white;
+  border:none;
+  color:#00ADEF;
+}
+.dropdown-content{
+  border:none;
+}
+.dropdown-content a{
+  display:block;
+  color:#00ADEF;
+  text-decoration: none;
+  font-size:50px;
+  padding:10px 15px;
+  box-shadow: 1px 1px 1px black;
+  display:none;
+  border:none;
+}
+.dropdown:hover .dropdown-content a{
+  display:block;
+  cursor:pointer;
+}
+.dropdown:hover button{
+  background-color: #f3f3f393;
+  cursor:pointer;
+}
+.dropdown a:hover{
+  background-color:grey;
+}
+.dropdown .dropdown-content{
+  position:absolute;
+  background-color: white;
+  border:solid;
+  border-color:#00ADEF;
+  border-width: 1px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+}
+.text{
+  margin-top:50px;
+  margin-left:15%;
+  margin-right:15%;
+  font-size:40px;
+  color:gray;
+  margin-bottom:30px;
+}
+.address{
+  padding-top:30px;
+  margin-left:15%;
+  margin-right:15%;
+  font-size:40px;
+  color:gray;
+  border-top:solid;
+}
+ul.list{
+  margin-left:15%;
+  margin-right:15%;
+  margin-top:30px;
+}
+ul.list li,ul.list p{
+  color:gray;
+}
+ul.list li{
+  line-height: 60px;
+  font-size: 40px;
+}
+ul.list h2{
+  font-size:60px;
+}
+ul.list p{
+  font-size:40px;
+  margin-bottom:30px;
+}
+footer{
+  color:white;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: #C4C4C4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size:35px;
+  margin-top:90px;
+}
+}

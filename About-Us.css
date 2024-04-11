@@ -276,17 +276,14 @@ footer{
   border-color:#00ADEF;
   border-width: 1px;
 }
+
 .pep{
   display:flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 80px;
+  margin-top: 100px;
 }
-div.item{
-  vertical-align: top;
-  display:inline-block;
-  text-align: center;
-  width: 100px;
+.person{
+  flex:1;
+ text-align: center;
 }
 .person img {
   padding: 25px;
@@ -301,8 +298,11 @@ div.item{
   padding:5px;
   color:white;
   font-size:50px;
+  height:124px;
 }
-
+.caption p{
+  padding-top: 30px;
+}
 footer{
   color:white;
   padding-left: 15%;
